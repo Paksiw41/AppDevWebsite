@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'MinecraftTen';
-    src: url('/websites/fonts/MinecraftTen-Regular.ttf') format('truetype'),
-        url('/websites/fonts/MinecraftTen-VGORe.ttf') format('truetype');
+    src: url('./fonts/MinecraftTen-Regular.ttf') format('truetype'),
+        url('./fonts/MinecraftTen-VGORe.ttf') format('truetype');
 }
 
 #title {
@@ -37,7 +37,7 @@
 
 body {
     margin: 0;
-    background-image: url(/websites/pictures/bg-wool-dark.png);
+    background-image: url(./pictures/bg-wool-dark.png);
     background-repeat: repeat;
     height: min-content;
 }
@@ -45,7 +45,7 @@ body {
 
 #div-intro {
     border: 10px solid #000000;
-    background-image: url(/websites/pictures/woodplank.jpg);
+    background-image: url(./pictures/woodplank.jpg);
     background-size: cover;
     padding: 20px;
     margin-top: 80px;
@@ -74,12 +74,12 @@ body {
 #menu {
 
     position: fixed;
-    background-image: url(/websites/pictures/crafting\ table.jpg);
+    background-image: url(./pictures/crafting\ table.jpg);
 }
 
 .container1 {
     display: flex;
-    background-image: url(/websites/pictures/characters-on-mountain-minecraft-hd-55sg7jzx74u7ya8g.jpg);
+    background-image: url(./pictures/characters-on-mountain-minecraft-hd-55sg7jzx74u7ya8g.jpg);
     background-size: cover;
     width: 100%;
     height: 900px;
@@ -88,7 +88,7 @@ body {
 }
 
 .minecraft-logo {
-    background-image: url(/websites/pictures/minecraftlogo.png);
+    background-image: url(./pictures/minecraftlogo.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -104,7 +104,7 @@ body {
 }
 
 .btn-menu {
-    background-image: url(/websites/pictures/crafting\ table.jpg);
+    background-image: url(./pictures/crafting\ table.jpg);
     background-size: cover;
     border: none;
     width: 50px;
@@ -172,7 +172,7 @@ body {
   }
 
   .container2 {
-    background-image: url(/websites/pictures/netherportal.gif);
+    background-image: url(./pictures/netherportal.gif);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
@@ -186,7 +186,7 @@ body {
 
   .first, .second, .third, .fourth {
     border: 2px solid black;
-    background-image: url(/websites/pictures/Obsidienne.jpg);
+    background-image: url(./pictures/Obsidienne.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 570px;
