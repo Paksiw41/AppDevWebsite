@@ -11,6 +11,15 @@
 
 </head>
 <body>
+
+    <div class="minecraft-link">
+        <a href="https://minecraft.net/" target="_blank" rel="noopener noreferrer">
+            <button class="minecraft-btn">
+                Minecraft Official Website
+            </button>
+        </a>
+    </div>
+
     <div id="header-container">
         <header id="title">
             Minecraft History
@@ -76,27 +85,27 @@
             <div class="slider-wrapper">
                 <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
                 <div class="image-list">
-                    <img src="./pictures/minecraft-versions/minecraft-adventure-update.jpg" alt="img-1" class="image-item" onclick="showDetails('img-1')">
-                    <img src="./pictures/minecraft-versions/SPWAN EGG UPDATE1.png" alt="img-2" class="image-item" onclick="showDetails('img-2')">                   
-                    <img src="./pictures/minecraft-versions/faithful update.jpg" alt="img-3" class="image-item" onclick="showDetails('img-3')">
-                    <img src="./pictures/minecraft-versions/villager trading.jpg" alt="img-4" class="image-item" onclick="showDetails('img-4')">
-                    <img src="./pictures/minecraft-versions/Prettry Scary.png" alt="img-5" class="image-item" onclick="showDetails('img-5')">
-                    <img src="./pictures/minecraft-versions/Redstone-Update-2022_01_10.png" alt="img-6" class="image-item" onclick="showDetails('img-6')">
-                    <img src="./pictures/minecraft-versions/horse update.png" alt="img-7" class="image-item" onclick="showDetails('img-7')">
-                    <img src="./pictures/minecraft-versions/the update that change the world.png" alt="img-8" class="image-item" onclick="showDetails('img-8')">
-                    <img src="./pictures/minecraft-versions/bountiful update.png" alt="img-9" class="image-item" onclick="showDetails('img-9')">
-                    <img src="./pictures/minecraft-versions/combat update.png" alt="img-10" class="image-item" onclick="showDetails('img-10')">
-                    <img src="./pictures/minecraft-versions/frostburn update.png" alt="img-11" class="image-item" onclick="showDetails('img-11')">
-                    <img src="./pictures/minecraft-versions/exploration update.png" alt="img-12" class="image-item" onclick="showDetails('img-12')">
-                    <img src="./pictures/minecraft-versions/World-of-Color-Map-Thumbnail.png" alt="img-13" class="image-item" onclick="showDetails('img-13')">
-                    <img src="./pictures/minecraft-versions/Update Aquatic.png" alt="img-14" class="image-item" onclick="showDetails('img-14')">
-                    <img src="./pictures/minecraft-versions/Village & Pillage.png" alt="img-15" class="image-item" onclick="showDetails('img-15')">
-                    <img src="./pictures/minecraft-versions/Buzzy Bees.png" alt="img-16" class="image-item" onclick="showDetails('img-16')">
-                    <img src="./pictures/minecraft-versions/Nether Update.png" alt="img-17" class="image-item" onclick="showDetails('img-17')">
-                    <img src="./pictures/minecraft-versions/Caves and Cliffs Part I.png" alt="img-18" class="image-item" onclick="showDetails('img-18')">
-                    <img src="./pictures/minecraft-versions/Caves & Cliffs Part II.png" alt="img-19" class="image-item" onclick="showDetails('img-19')">
-                    <img src="./pictures/minecraft-versions/The Wild Update.png" alt="img-20" class="image-item" onclick="showDetails('img-20')">                  
-                    <img src="./pictures/minecraft-versions/Trails & Tales.png" alt="img-21" class="image-item" onclick="showDetails('img-21')">
+                    <img src="./pictures/minecraft-versions/minecraft-adventure-update.jpg" data-details-id="img-1" class="image-item">
+                    <img src="./pictures/minecraft-versions/SPWAN EGG UPDATE1.png" data-details-id="img-2" class="image-item">                   
+                    <img src="./pictures/minecraft-versions/faithful update.jpg" data-details-id="img-3" class="image-item">
+                    <img src="./pictures/minecraft-versions/villager trading.jpg" data-details-id="img-4" class="image-item">
+                    <img src="./pictures/minecraft-versions/Prettry Scary.png" data-details-id="img-5" class="image-item">
+                    <img src="./pictures/minecraft-versions/Redstone-Update-2022_01_10.png" data-details-id="img-6" class="image-item">
+                    <img src="./pictures/minecraft-versions/horse update.png" data-details-id="img-7" class="image-item">
+                    <img src="./pictures/minecraft-versions/the update that change the world.png" data-details-id="img-8" class="image-item">
+                    <img src="./pictures/minecraft-versions/bountiful update.png" data-details-id="img-9" class="image-item">
+                    <img src="./pictures/minecraft-versions/combat update.png" data-details-id="img-10" class="image-item">
+                    <img src="./pictures/minecraft-versions/frostburn update.png" data-details-id="img-11" class="image-item">
+                    <img src="./pictures/minecraft-versions/exploration update.png" data-details-id="img-12" class="image-item">
+                    <img src="./pictures/minecraft-versions/World-of-Color-Map-Thumbnail.png" data-details-id="img-13" class="image-item">
+                    <img src="./pictures/minecraft-versions/Update Aquatic.png" data-details-id="img-14" class="image-item">
+                    <img src="./pictures/minecraft-versions/Village & Pillage.png" data-details-id="img-15" class="image-item">
+                    <img src="./pictures/minecraft-versions/Buzzy Bees.png" data-details-id="img-16" class="image-item">
+                    <img src="./pictures/minecraft-versions/Nether Update.png" data-details-id="img-17" class="image-item">
+                    <img src="./pictures/minecraft-versions/Caves and Cliffs Part I.png" data-details-id="img-18" class="image-item">
+                    <img src="./pictures/minecraft-versions/Caves & Cliffs Part II.png" data-details-id="img-19" class="image-item">
+                    <img src="./pictures/minecraft-versions/The Wild Update.png" data-details-id="img-20" class="image-item">                  
+                    <img src="./pictures/minecraft-versions/Trails & Tales.png" data-details-id="img-21" class="image-item">
                 </div>
                 <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
             </div> 
@@ -108,6 +117,305 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container4">
+        <div class="container-det1">
+            <div id="img-1" class="image-details">
+                <div class="text1bg">
+                    <h3 class="h7">Minecraft Adventure Update</h3>
+                    <p class="p7">The Adventure Update was a major update to Java Edition which focused on aspects such as combat, exploration, and adventure. Its content was implemented in Beta 1.8 and 1.0.0. <br><br>
+                        It was announced on June 10, 2011 by Notch, and was initially planned to be implemented in Java Edition Beta 1.7. An early version of the Adventure Update was playable by fans at Mojang's booth at PAX Prime 2011, which was held between August 26 and 28. Because of the size of the update, the first part of the update was pushed back to Beta 1.8, which became available on September 14, 2011 and the rest of the update being part of Minecraft 1.0, which was released on November 18, 2011. The pre-releases of Minecraft Beta 1.8 and Beta 1.9 were leaked before their official releases, and Notch approved these leaks on his Twitter.</p>            
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det2">
+            <div id="img-2" class="image-details">
+                <div class="text2bg">
+                    <h3 class="h8">Spawn Egg Update</h3>
+                    <p class="p8">1.1 is a major update to Minecraft (Java Edition) released on January 12, 2012, which adds spawn eggs, support for multiple languages, the Superflat world type, and beaches. It is the first update to begin using snapshots, and to add 56 languages, and the first major release that did not introduce any new blocks. There were no minor versions to 1.1.,<br>
+                    
+                       <br> Items Added <br> <br>
+                    
+                    Spawns mobs when used. <br>
+                    20 types of spawn eggs, each spawning their respective mob: <br>
+                    The types were blaze, cave spider, chicken, cow, creeper, enderman, ghast, magma cube, mooshroom, pig, sheep, silverfish, skeleton, slime, spider, squid, villager, wolf, zombie, and zombie pigman. <br>
+                    Are a creative-exclusive item.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det3">
+            <div id="img-3" class="image-details">
+                <div class="text3bg">
+                    <h3 class="h9">Faithful Update</h3>
+                    <p class="p9">Minecraft Java Edition 1.2, also known as 1.2.1, was a major update released on March 1, 20121. Here are some key features and changes introduced in this version:</p> <br><br><br>
+                        <li>New Height Limit: The height limit of the game was increased from 128 blocks to 256 blocks due to the new Anvil file format.</li>
+                        <li>New Blocks: This version introduced chiseled stone bricks, a new type of stone bricks. These were creative-exclusive blocks.</li>
+                        <li>New Textures: Two new textures were added to the terrain.png file.</li>
+                        <li>Jungle Biomes: Jungle biomes were added to the game.</li>
+                        <li>Additional Features: Other generated features included wooden bridges in mineshafts and desert wells.</li> <br><br><br>
+                        <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>      
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det4">
+            <div id="img-4" class="image-details">
+                <div class="text4bg">
+                    <h3 class="h10">Village Trading Update</h3>
+                    <p class="p10">Minecraft Java Edition 1.3.1, released on August 1, 20121, brought several new features and changes to the game: </p> <br><br><br>
+                        <li>Trading: This version introduced the trading system, allowing players to exchange items with villagers.</li>
+                        <li>Adventure Mode: Adventure mode was added, providing a new gameplay experience where players can interact with the world in limited ways.</li>
+                        <li>New Structures: Jungle and desert pyramids were added as new generated structures.</li>
+                        <li>Server Improvements: The server list became re-orderable, and the game started scanning for LAN servers. Automatic downloading of standard-sized texture packs when joining servers was also added.</li>
+                        <li>Other Changes: Entities were made less likely to glitch through blocks, and blocks other players are mining now show cracks.</li> <br><br><br>
+                        <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det5">
+            <div id="img-5" class="image-details">
+                <div class="text5bg">
+                    <h3 class="h11">Pretty Scary Update</h3>
+                    <p class="p11">The Pretty Scary Update, officially known as Minecraft Java Edition 1.4.2, was a major update released on October 25, 20121. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Mobs: This version introduced several new mobs and variants including witches, bats, zombie villagers, and wither skeletons.</li>
+                    <li>New Boss: A new boss, the Wither, was added.</li>
+                    <li>New Blocks and Items: Wearable and placeable heads, command block, the anvil, the beacon, new food items (potatoes, carrots, pumpkin pies), and carrots on sticks for controlling pigs were introduced.</li>
+                    <li>New Decoration Items: New decoration items such as item frames, flower pots, and cobblestone walls were added.</li>
+                    <li>Server Improvements: The server list became re-orderable, and the game started scanning for LAN servers.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det6">
+            <div id="img-6" class="image-details">
+                <div class="text6bg">
+                    <h3 class="h12">Redstone Update</h3>
+                    <p class="p12">The Redstone Update, officially known as Minecraft Java Edition 1.5, was a major update released on March 13, 20131. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Redstone-Related Blocks: This version introduced a number of new redstone-related blocks, including the comparator, hopper, dropper, daylight sensor, trapped chest, weighted pressure plates, and block of redstone.</li>
+                    <li>New Decorative Block: A new decorative block, block of quartz, crafted from nether quartz, was also added.</li>
+                    <li>Scoreboard System: A new scoreboard system was included in this update.</li>
+                    <li>New Texture Pack Format: A new texture pack format was introduced.</li>
+                    <li>Lighting Engine Optimization: The lighting engine was optimized in this update.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>   
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det7">
+            <div id="img-7" class="image-details">
+                <div class="text7bg">
+                    <h3 class="h13">Horse Update</h3>
+                    <p class="p13">The Horse Update, officially known as Minecraft Java Edition 1.6.1 (or 1.6), was a major update released on July 1, 20131. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>Horses: This update introduced horses, which spawn in plains and savannas in herds of 2–62. All combinations of color and markings are equally likely.</li>
+                    <li>Leads: Leads were added, allowing players to move passive mobs.</li>
+                    <li>Coal Blocks: Coal blocks, a compact form of coal, were introduced.</li>
+                    <li>Carpets: Carpets were added as a decorative block.</li>
+                    <li>Resource Packs: Resource packs, which replace texture packs, were introduced.</li>
+                    <li>New Launcher: A new launcher was introduced in this update.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>  
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det8">
+            <div id="img-8" class="image-details">
+                <div class="text8bg">
+                    <h3 class="h14">The Update that Changed the World</h3>
+                    <p class="p14">The Update that Changed the World, officially known as Minecraft Java Edition 1.7.2, was a major update released on October 25, 20131. Here are some key features and changes introduced in this version: </p> <br><br>
+                    <li>New Biomes: Many new biomes and biome variations were added.</li>
+                    <li>New Blocks: This update introduced stained glass, red sand, and new tree types.</li>
+                    <li>New Spawn System: A new spawn system was added.</li>
+                    <li>New Fish: New fish were introduced.</li>
+                    <li>New Terrain Generator: A new terrain generator was added.</li>
+                    <li>Improvements to Existing Biomes: Improvements were made to existing biomes.</li>
+                    <li>Ocean Biomes: Ocean biomes became smaller and took up less of the world.</li>
+                    <li>Treasures: Treasures could be caught by fishing.</li>
+                    <li>Achievements and Statistics: Achievements and statistics became per world/server.</li>
+                    <li>Fog: Fog became less noticeable on lower render distances.</li>
+                    <li>Unbreaking: Unbreaking from enchantment tables was no longer limited to tools.</li>
+                    <li>Witches: Witches started spawning outside of Witch Huts.</li>
+                    <li>Cave Generation: Cave generation was tweaked, making caves less dense and interconnected.</li>
+                    <li>Server List: The server list could now be refreshed by pressing F5.</li>
+                    <li>Achievements: Achievements earned were announced to everyone.</li> <br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>    
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det9">
+            <div id="img-9" class="image-details">
+                <div class="text9bg">
+                    <h3 class=“h15”>The Bountiful Update</h3>
+                    <p class=“p9”> <span style="font-family: helvetica; color: #fff; font-size: 1.2rem;" >The Bountiful Update, officially known as Minecraft Java Edition 1.8, was a major update released on Tuesday, September 2, 2014. The update has two main themes, one being features added for mapmakers and the other being new survival features. Here are some key features and changes introduced in this version:</span>  </p> <br><br><br>
+                    <li>New Blocks: This update introduced 36 new blocks including granite, andesite, diorite along with polished variants; 3 types of prismarine; 5 blocks relating to red sandstone; 5 new varieties each of doors, fences and fence gates; as well as sea lanterns, wet sponge, slime blocks, coarse dirt, barriers, iron trapdoors and banners.</li>
+                    <li>Enchanting and Anvil Repairing: Enchanting has been redone, now costs lapis lazuli in addition to enchantment levels. Anvil repairing has been rebalanced.</li>
+                    <li>Max Render Distance: Max render distance has been increased to 32 chunks (512 blocks).</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>   
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det10">
+            <div id="img-10" class="image-details">
+                <div class="text10bg">
+                    <h3 class=“h16”>The Combat Update</h3>
+                    <p class=“p16”> <span style="font-family: helvetica; color: #fff; font-size: 1.2rem;">The Combat Update, officially known as Minecraft Java Edition 1.9, was a major update released on Monday, February 29, 2016. This update overhauled the combat system, among other additions and changes3. Here are some key features and changes introduced in this version:</span>  </p> <br><br><br>
+                    <li>New Mobs: This update introduced skeleton riders.</li>
+                    <li>New Items: New arrow types were introduced.</li>
+                    <li>New Structures: Player-constructed igloos were introduced.</li>
+                    <li>New Sound Effects: A whole bunch of new sound effects were introduced.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>    
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det11">
+            <div id="img-11" class="image-details">
+                <div class="text11bg">
+                    <h3 class=“h17”>Frostburn Update</h3>
+                    <p class=“p7”>The Frostburn Update, officially known as Minecraft Java Edition 1.10, was a major update released on June 8, 2016. Here are some key features and changes introduced in this version:</p> <br><br><br>
+                    <li>New Mobs: This update introduced skeleton/zombie variants in snowy biomes and deserts respectively, and polar bears.</li>
+                    <li>New Blocks: Structure blocks for saving/loading structures in worlds were added.</li>
+                    <li>New Features: An auto-jump feature was introduced.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det12">
+            <div id="img-12" class="image-details">
+                <div class="text12bg">
+                    <h3 class=“h18”>Exploration Update</h3>
+                    <p class=“p7”>The Exploration Update, officially known as Minecraft Java Edition 1.11, was a major update released on November 14, 2016. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Mobs: This update introduced Vindicators, Evokers, Vexes, and Llamas.</li>
+                    <li>New Blocks: Observer and Shulker Box were added.</li>
+                    <li>New Items: Shulker Shell, Totem of Undying, and the two Explorer Maps were introduced.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det13">
+            <div id="img-13" class="image-details">
+                <div class="text13bg">
+                    <h3 class=“h19”>World of Color Update</h3>
+                    <p class=“p19”>The World of Color Update, officially known as Minecraft Java Edition 1.12, was a major update released on June 7, 2017. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Blocks: This update introduced Glazed Terracotta, colored beds, and colored concrete.</li>
+                    <li>Updated Blocks: Wool and banners were modified to be more vibrant. Beds can now be dyed in the 16 different colors.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>    
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det14">
+            <div id="img-14" class="image-details">
+                <div class="text14bg">
+                    <h3 class=“h20”>Aquatic Update</h3>
+                    <p class=“p20”>The Aquatic Update, officially known as Minecraft Java Edition 1.13, was a major update. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Biomes: New ocean and underwater biomes were added.</li>
+                    <li>New Mobs: Dolphins, tropical fish, and other aquatic mobs were introduced.</li>
+                    <li>New Items: Tridents, treasure chests, and shipwrecks were added.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>  
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det15">
+            <div id="img-15" class="image-details">
+                <div class="text15bg">
+                    <h3 class=“h21”>Village and Pillage Update</h3>
+                    <p class=“p22”>The Village and Pillage Update, officially known as Minecraft Java Edition 1.14, was a major update. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Mobs: This update introduced new mobs such as Pillagers and Ravagers.</li>
+                    <li>New Blocks: Many new blocks like the Blast Furnace, Smoker, and Bell were added.</li>
+                    <li>New Villages: Villages were revamped with new buildings and professions.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>  
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det16">
+            <div id="img-16" class="image-details">
+                <div class="text16bg">
+                    <h3 class=“h22”>Buzzy Bees Update</h3>
+                    <p class=“p22”>The Buzzy Bees Update, officially known as Minecraft Java Edition 1.15, was a major update. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Mobs: Bees were introduced in this update.</li>
+                    <li>New Blocks: Bee Nests, Beehives, and Honey Blocks were added.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>   
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det17">
+            <div id="img-17" class="image-details">
+                <div class="text17bg">
+                    <h3 class=“h23”>Nether Update</h3>
+                    <p class=“p23”>The Nether Update, officially known as Minecraft Java Edition 1.16, was a major update. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Biomes: New biomes like the Crimson Forest and Warped Forest were added to the Nether.</li>
+                    <li>New Mobs: Piglins, Hoglins, and Striders were introduced.</li>
+                    <li>New Blocks: Many new blocks like the Crimson and Warped stems, Nether Gold Ore, and Soul Soil were added.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det18">
+            <div id="img-18" class="image-details">
+                <div class="text18bg">
+                    <h3 class=“h24”>Caves and Cliffs Part 1 Update</h3>
+                    <p class=“p24”>The Caves and Cliffs Part 1 Update, officially known as Minecraft Java Edition 1.17, was a major update. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Mobs: Goats and Axolotls were introduced.</li>
+                    <li>New Blocks: Blocks like Copper, Amethyst, Dripstone, and Glow Lichen were added.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>   
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det19">
+            <div id="img-19" class="image-details">
+                <div class="text19bg">
+                    <h3 class=“h25”>Caves and Cliffs Part 2 Update</h3>
+                    <p class=“p25”>The Caves and Cliffs Part 2 Update, officially known as Minecraft Java Edition 1.18, was a major update. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New World Generation: The world height was increased, and new terrain generation was introduced.</li>
+                    <li>New Biomes: New biomes like the Deep Dark and the Mangrove Swamp were added.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det20">
+            <div id="img-20" class="image-details">
+                <div class="text20bg">
+                    <h3 class=“h26”>The Wild Update</h3>
+                    <p class=“p26”>The Wild Update, officially known as Minecraft Java Edition 1.19, was a major update. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Mobs: The Warden and the Frogs were introduced.</li>
+                    <li>New Blocks: Blocks like the Sculk Blocks, Mud Blocks, and Mangrove Tree Blocks were added.</li> <br><br><br>
+                    <p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>  
+                </div>
+            </div>
+        </div>
+
+        <div class="container-det21">
+            <div id="img-21" class="image-details">
+                <div class="text21bg">
+                    <h3 class=“h27”>Trails and Tales Update</h3>
+                    <p class=“p27”>The Trails and Tales Update, officially known as Minecraft Java Edition 1.20, was a major update released on June 7, 2023. Here are some key features and changes introduced in this version: </p> <br><br><br>
+                    <li>New Biomes: A new biome, the Cherry Grove, was added.</li>
+                    <li>New Mobs: This update introduced new mobs such as camels and sniffers.</li>
+                    <li>New Blocks: New blocks like bamboo, chiseled bookshelves, hanging signs, and cherry wood sets were added.</li>
+                    <li>Archeology: An archeology system was introduced, allowing players to unearth secrets hiding beneath the Overworld’s sandy surface.</li>
+                    <li>Armor Trims: Armor trims were introduced, allowing players to show the world that they’ve traveled, survived, and dressed for the occasion.</li> <br><br><br>
+                    T<p class="p9">This update brought significant changes to the game, enhancing the player’s experience and expanding the possibilities for creativity and exploration.</p>  
+                </div>
+            </div>
+        </div>
+        
+
+
     </div>
 
 
@@ -229,7 +537,59 @@ window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
     </script>
 
+    <script>
+            // Get all image items in the image carousel
+            const imageItems = document.querySelectorAll('.image-item');
 
+            // Get all container-det elements
+            const containerDets = document.querySelectorAll('.image-details');
+
+            // Get the container4 element
+            const container4 = document.querySelector('.container4');
+
+            // Variable to keep track of the active image index
+            let activeIndex = null;
+
+            // Function to hide container4 initially
+            window.addEventListener('load', () => {
+            container4.style.display = 'none'; // Hide container4 on page load
+            });
+
+            // Function to hide all container-det elements
+            const hideAllContainerDets = () => {
+                containerDets.forEach(containerDet => {
+                    containerDet.style.display = 'none';
+                });
+            }
+
+            // Loop through each image item
+            imageItems.forEach((imageItem, index) => {
+                // Add a click event listener to each image item
+                imageItem.addEventListener('click', () => {
+                    // Check if the clicked image is already active
+                    if (activeIndex !== index) {
+                        // Hide all container-det elements
+                        hideAllContainerDets();
+
+                        // Show the corresponding container-det element based on the index of the clicked image
+                        containerDets[index].style.display = 'block';
+
+                        // Show container4 if it's not already visible
+                        container4.style.display = 'block';
+
+                        // Update the active index
+                        activeIndex = index;
+
+                        // Scroll to the corresponding container-det element
+                        containerDets[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+
+
+
+    </script>
+    
 
 </body>
 
@@ -242,7 +602,7 @@ window.addEventListener("load", initSlider);
     
     <div class="second-container">
                 <h4 class="Powered-By">Powered By:</h4>
-            <img class="vs-logo" src="./pictures/pngwing.com.png">
+            <img class="vs-logo" src="/websites/pictures/pngwing.com.png">
     </div>
 </footer>
 </html>
